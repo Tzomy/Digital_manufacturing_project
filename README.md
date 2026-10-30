@@ -8,7 +8,8 @@ The goal of the course is to show how **DFX (Design for X)** methods and digital
 > **Component:** the top shell of a Game Boy Advance SP, the area around the D-pad and the A/B buttons.
 > **Final objective:** find the design and process configuration with the **lowest overall cost** (material + processing + mold), while keeping the part structurally sound and manufacturable.
 
-![hero picture of the shell](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/hero.png?raw=true)
+![hero picture of the shell](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/hero.png?raw=true)
+
 
 ---
 
