@@ -87,7 +87,7 @@ Mold design (two plates) ─► CAM: milling strategy and simulation
 
 The CAD model was rebuilt from the real GBA SP case, keeping the real dimensions and ratios and the original features: button holes, hinge, speaker holes and screw bosses.
 
-![reference model to CAD](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/reference_to_cad.png?raw=true)
+![reference model to CAD](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/reference_to_cad.png?raw=true)
 
 ### 3.2 Parametric design
 
@@ -113,7 +113,7 @@ Displacement and maximum von Mises stress were evaluated for mesh sizes from 10%
 - Maximum stress is unstable for coarse meshes and plateaus between **5% and 3%**.
 - **4%** was selected: converged results at a reasonable simulation time.
 
-![mesh convergence graphs](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/mesh_convergence_charts.png?raw=true)
+![mesh convergence graphs](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/mesh_convergence_charts.png?raw=true)
 
 ### 3.5 Material selection
 
@@ -131,7 +131,7 @@ Three candidates were compared. For each one, the thickness was tuned so that al
 
 With ABS at 2 mm, the displacement peaks at **0.102 mm**, localized around the D-pad cutout. That is slightly over the 0.1 mm limit, so the design needed improvement.
 
-![displacement picture](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/displacement_plot.png?raw=true)
+![displacement picture](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/displacement_plot.png?raw=true)
 
 ### 3.7 Design optimization
 
@@ -142,7 +142,7 @@ Two strategies were tested to bring the displacement back under the limit while 
 
 Rib layouts were refined by trial and error: some early layouts actually performed *worse* (peak displacement around 0.147 to 0.149 mm), and the final layout lowered the localized displacement.
 
-![displacement final design](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/displacement_at_final_design.png?raw=true)
+![displacement final design](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/displacement_at_final_design.png?raw=true)
 
 ---
 
@@ -174,13 +174,13 @@ Takeaways:
 - A single, well-placed gate beat a two-gate layout.
 - The first gate position (middle of the part) filled the hinge area last, so moving it closer to that region helped symmetry.
 
-![flatness plane](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/flatness_plane.png?raw=true)
+![flatness plane](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/flatness_plane.png?raw=true)
 
 ### 4.3 Mold design
 
 Final mold: **two-plate mold**, with the injection point along the upper edge of the part to promote uniform cavity filling. Plate 1 forms the button side; plate 2 forms the hinge/rear side.
 
-![two plates design](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/two_plates.png?raw=true)
+![two plates design](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/two_plates.png?raw=true)
 
 ---
 
@@ -270,7 +270,7 @@ One of the mold blocks was machined in simulation using Autodesk Fusion Manufact
 
 **Total machining time: 1 h 38 min 28 s** (as reported by the CAM simulation).
 
-![mold milling procedure](https://github.com/Tzomy/Digital_manufacturing_project/blob/docs/images/mold_milling.png?raw=true)
+![mold milling procedure](https://github.com/Tzomy/Digital_manufacturing_project/blob/main/docs/images/mold_milling.png?raw=true)
 
 ---
 
